@@ -1,7 +1,7 @@
 import unittest
 import word_count
 
-class SimpleTest(unittst.TestCase):
+class SimpleTest(unittest.TestCase):
     def test_word_count1(self):
         self.assertEqual(word_count.w_count(1234), "Input is not string")
 
